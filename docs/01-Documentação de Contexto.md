@@ -21,9 +21,9 @@ Diante do exposto, o problema que se busca resolver com este projeto é a limita
 
 
 > **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://brasilescola.uol.com.br/filosofia/a-definicao-acao-social-max-weber.htm)
-> - [Matriz Certezas, Suposições e Dúvidas](https://portal.fgv.br/artigos/boom-plataformas-delivery-brasil-e-suas-consequencias-peculiares)
-> - [Brainstorming](https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/pesquisa-revela-aumento-de-pedidos-de-comida-por-app-durante-pandemia)
+> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
