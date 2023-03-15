@@ -1,43 +1,55 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Podemos observar que, com o passar do tempo e principalmente após a pandemia, muitos restaurantes começaram a investir na modalidade de delivery, entendendo que ela traz uma comodidade ao cliente, o qual não precisa ir até o restaurante para comer, e sim pode pedir para que a comida seja entregue em casa. 
+
+Somente em 2020, conforme análise realizada pela Mobills, o delivery de alimentos subiu 187% no Brasil com gastos médios por usuários aproximadamente R$100, segundo estudo realizado com 46.000 usuários. Em 2021, segundo dados da Abrasel, Associação Brasileira de Bares e Restaurantes, as vendas por delivery no mercado alimentício movimentaram aproximadamente R$35 bilhões, 20% das vendas do setor. (Mussolin Massa, Rubens, Portal FGV, 2022)
+
+A criação da aplicação interativa para Gerenciamento de Pizzaria, foi baseada no fato do aumento de pedidos através do delivery, e para ajudar o empresário no controle do seu estabelecimento.
+
+O proprietário da Pizzaria tem necessidade de ampliar sua empresa, e ampliar a divulgação da empresa e controlar o fluxo de dados da mesma utilizando os recursos da Web, disponibilizando um sistema de fácil manuseio, com uma interface agradável para os funcionários e clientes.
+
+Também iremos criar na aplicação interativa uma opção para ação social, onde 10% dos pedidos serão doados para famílias carentes. A ação social é um ato importante para proporcionar melhor integração e, também, potencializar o desenvolvimento do pensamento e do comportamento humano em virtude das necessidades apresentadas pelo outro.
+
+Max Weber entende que cada ação está enraizada em valores específicos e capazes de direcionar um comportamento e uma atitude em função da crença verdadeira sobre as consequências imputadas ao outro. Para Weber, a ação social é aquela que é orientada para o outro. (CABRAL, João Francisco Pereira)
+
+Diante disso, torna-se fundamental que existam lugares que permitam ao usuário acessar um cardápio diverso e sem limitações de sabores e que não respeitem a sua intolerância alimentar ou escolha de hábitos alimentares, como também proporcione ações sociais conforme o percentual de pedidos.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Diante do exposto, o problema que se busca resolver com este projeto é a limitação que as pizzarias têm em ter apenas o gerenciamento manual, gerando assim um controle muito básico, o que acaba gerando perdas, por não conseguir controlar de maneira eficiente o estoque, pedidos e tudo mais.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - [Objetivos, Problema de pesquisa e Justificativa](https://brasilescola.uol.com.br/filosofia/a-definicao-acao-social-max-weber.htm)
+> - [Matriz Certezas, Suposições e Dúvidas](https://portal.fgv.br/artigos/boom-plataformas-delivery-brasil-e-suas-consequencias-peculiares)
+> - [Brainstorming](https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/pesquisa-revela-aumento-de-pedidos-de-comida-por-app-durante-pandemia)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma acessível e interativa para a oferta de recursos de uma pizzaria, tendo em foco fazer o gerenciamento das informações a fim de atender o maior número de pessoas possíveis. Podendo ser destacado em específico os objetivos:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+* Fornecer funcionalidades para criação e gerenciamento de pedidos com base nas escolhas do cliente;
+* Controle e gerenciamento de cadastros;
+* Manter a organização das informações do negócio;
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Tendo em vista a dificuldade de encontrar sistemas completos de pizzarias, decidimos desenvolver um sistema para esses estabelecimentos, contando com funcionalidades importantes, para que, ao visualizar os números e relatórios de seu restaurante, o proprietário possa propor melhorias para seu negócio, e para que os clientes, ao ter acesso ao cardápio de forma simples e organizada, possa também escolher entre opções inclusivas, caso tenham restrições alimentares. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Grandes empresas e redes de franquia possuem maiores recursos financeiros e de pessoal para investir em novas tecnologias e treinamentos de sistemas complexos e completos de gestão. Portanto, o intuito deste projeto é a democratização do acesso à sistemas informatizados.
+Desta forma, estabeleceu-se como público-alvo desta solução, pequenas e médias pizzarias, urbanas ou não, que tenham serviço de delivery ou take-away e que não possuam sistemas de gerenciamento em sua operação ou que sejam precários para atender às suas necessidades. Pequenas e médias pizzarias, geralmente possuem clientela local, permitindo assim que, a partir das especificidades de cada modelo de negócio, e/ou do perfil dos clientes da pizzaria, possam ser feitas personalizações para atender as carências de cada empresa.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
