@@ -1,103 +1,95 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<p align="justify">
+A persona é o cliente ideal, sendo o arquétipo que reúne todas as características do melhor cliente. Ela é baseada em dados e características de clientes reais, como comportamento, dados demográficos, problemas, desafios e objetivos.  Logo, estamos descrevendo o cliente que muito provavelmente irá procurar esse sistema para realizar o gerenciamento de pedidos em sua pizzaria e seus potenciais clientes. Assim ao definir uma persona o foco deve ser entender o conflito ou problema a fim de determinar como o sistema que será projetado poderá ajudá-lo. 
+<br>As personas levantadas neste projeto englobam as seguintes características:<br>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Persona Tereza Solana](img/persona1.png)
+![Persona Luana Sousa](img/persona2.png)
+![Persona Fábio Gomes](img/persona3.png)
+![Persona Silvia Almeida](img/persona4.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
+|EU COMO... <br>`PERSONA`| ... QUERO/PRECISO ... <br>`O QUE`                                                                   |... PARA ... <br>`POR QUE`            |
+|------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------|
+|Luana Sousa             |poder ver as imagens das pizzas prontas antes de escolher                                            |sou capaz de perceber se a apresentação da pizza me agrada.|
+|Luana Sousa             |encontrar locais novos que pratiquem a gastronomia inclusiva                                         |porque tenho restrições alimentares e não tenho muitas opções confiáveis.|
+|Luana Sousa             |ajudar as pessoas a encontrarem opções saborosas e saudáveis                                         |não existem muitas opções disponíveis e que sejam de conhecimento amplo.|
+|Silvia Almeida          |selecionar os ingredientes de acordo com meu gosto pessoal                                           |consigo agradar ao maior número de pessoas que comerão.|
+|Silvia Almeida          |entrar em contato facilmente com o estabelecimento                                                   |possa ter um canal direto em caso de necessidade.|
+|Silvia Almeida          |encontrar uma pizzaria cujo tempo de entrega não seja tão longo                                      |porque as opções que conheço ficam mais distantes da minha casa e tem um tempo de entrega alargado.|
+|Tereza Solana           |ter informações atualizadas sobre meu estoque                                                        |consiga fazer uma melhor gestão e evitar surpresas que impactam no funcionamento.|
+|Tereza Solana           |investir na modalidade de delivery                                                                   |atualmente tenho um alto custo para manter o atendimento presencial.| 
+|Tereza Solana           |realizar ação social doando pizzas utilizando os ingredientes que possivelmente poderiam ser perdidos|tenho consciência que existem muitas pessoas em condição de fome e que se beneficiariam de tal ação.|
+|Fábio Gomes             |ter opções de delivery de estabelecimentos que ofereçam comidas sem glúten e lactose                 |as opções que conheço só tem atendimento presencial e existem dias que é inviável sair de casa.|
+|Fábio Gomes             |ter confiança nos alimentos sem glúten e lactose produzidos pelos restaurantes                       |já comi em locais que, apesar de se intitularem inclusivos, na realidade não cuidavam 100% desse aspecto.|
+|Fábio Gomes             |apoiar uma causa social de forma constante                                                           |tenho consciência da quantidade de pessoas que necessitam.|
+ 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
+ 
+|ID    |Descrição do Requisito                                                                                                           |Prioridade|
+|------|---------------------------------------------------------------------------------------------------------------------------------|----------|
+|RF-001|A aplicação deve apresentar na página principal informações sobre a história da pizzaria.                                        | BAIXA    | 
+|RF-002|A aplicação deve apresentar, para cada pizza, uma imagem correspondente. (thumbnail).                                            | ALTA     |
+|RF-003|A aplicação deve permitir ao usuário visualizar o cardápio completo da pizzaria com todos os detalhes dos ingredientes.          | ALTA     | 
+|RF-004|A aplicação deve permitir ao gestor cadastrar, alterar e remover sabores de pizzas, ingredientes e promoções.                    | ALTA     | 
+|RF-005|A aplicação deve permitir que o usuário adicione e remova ingredientes.                                                          | MÉDIA    | 
+|RF-006|A aplicação permite que o usuário realize os seus pedidos diretamente por ele.                                                   | ALTA     | 
+|RF-007|A aplicação deve oferecer ao gestor uma funcionalidade de relatório de estoque dos produtos da pizzaria.                         | ALTA     | 
+|RF-008|A aplicação deve permitir visualizar as informações de contatos do mantenedor do site.                                           | BAIXA    | 
+|RF-009|A aplicação deve oferecer ao gestor uma funcionalidade de relatório de vendas.                                                   | ALTA     | 
+|RF-010|A aplicação deve permitir que qualquer usuário possa se cadastrar no site.                                                       | BAIXA    | 
+|RF-011|A aplicação deve permitir que os usuários tenham acesso aos dados do próprio cadastro para editar ou excluir.                    | BAIXA    | 
+|RF-012|A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários.                                   | MÉDIA    | 
+|RF-013|A aplicação deve possuir uma área de contato, onde qualquer usuário pode enviar um formulário de contato para o e-mail do gestor.| BAIXA    | 
+ 
 ### Requisitos não Funcionais
+ 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                                                                          |Prioridade |
+|------ |---------------------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001|A aplicação deve ser publicada em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);                | ALTA      |
+|RNF-002|A aplicação deverá ser responsiva permitindo a visualização em diferentes telas de forma adequada.                               | ALTA      |
+|RNF-003|A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade.                                          | MÉDIA     | 
+|RNF-004|A aplicação deve possibilitar que o administrador e usuário façam pesquisa.                                                      | ALTA      |
+|RNF-005|A aplicação não permite o recebimento de cadastros de usuários com dados necessários em branco.                                  | BAIXA     |
+|RNF-006|A aplicação deverá informar o erro de cadastro e login para o usuário caso os dados inseridos não estejam no banco de dados.     | BAIXA     |
+|RNF-007|A aplicação deverá realizar backup dos dados principais de cadastros dos clientes para um banco de dados em nuvem.               | ALTA      |
+|RNF-008|A aplicação será desenvolvida através das linguagens C#, .NET e do banco de dados SQL.                                           | ALTA      |
+ 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir:
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+|ID   | Restrição                                                                                                                                      |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------|
+|RE-01|O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023.                                         |
+|RE-02|A aplicação interativa deve se restringir às linguagens C#, .NET e ao banco de dados SQL, e deve ser desenvolvida através do Visual Studio Code.|
+|RE-03|A equipe não pode subcontratar o desenvolvimento do trabalho.                                                                                   |
+|RE-04|A aplicação interativa não deve demandar pagamento.                                                                                             | 
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso a seguir resume as interações dos atores com a aplicação:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Diagrama de Casos de Uso](img/diagramaCasosDeUso.png) 
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+</p>
