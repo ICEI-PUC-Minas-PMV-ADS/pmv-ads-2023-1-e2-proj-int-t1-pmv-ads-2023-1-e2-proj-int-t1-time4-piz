@@ -1,36 +1,48 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+<p align="justify">
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+O diagrama de fluxo a seguir apresenta a interação do usuário com o sistema interativo da aplicação. O diagrama de fluxo foi desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface.
 
 ![Exemplo de Diagrama de Fluxo](img/Diagramadefluxo.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+A seguir os wireframes concebidos para representar a versão bastante primitiva do visual da aplicação.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+![Wireframe 01](img/WF1Homepage.png)
+A Homepage trará o menu na parte superior (disponível em todas as páginas) com links para a Homepage, cardápio, carrinho, perfil e contato, uma frase de efeito associada à experiência de comer uma saborosa pizza, uma imagem e um botão de login/cadastro.
+<br>
+<br>    
+![Wireframe 02](img/WF2Login.png)
+A página de login trará uma imagem e dois campos de formulário para login e senha. Terá também opções para recuperação de senha e cadastro para novos usuários.
+<br>
+<br>       
+![Wireframe 03](img/WF3Cadastro.png)
+A página de cadastro terá uma imagem e campos de formulário para receber do usuário dados de: Nome, Telefone, E-mail e Senha, e um botão para efetivar o cadastro.
+<br>
+<br>       
+![Wireframe 04](img/WF4Cardapio.png)
+Após login, o usuário será direcionado para a tela de cardápio onde o usuário poderá acrescentar ao carrinho todos os produtos que quiser.
+<br>
+<br>    
+![Wireframe 05](img/WF5Carrinho.png)
+Após a seleção dos produtos, o usuário será direcionado para a tela do carrinho, onde os mesmos serão apresentados juntamente com a opção de personalização das pizzas (acréscimos e retiradas de ingredientes).
+<br>
+<br>    
+![Wireframe 06](img/WF6Pedido.png)
+Após a confirmação do pedido, o usuário será direcionado para a página de acompanhamento do pedido, onde terão três status: Pedido recebido, Seu pedido está sendo feito, Pedido disponível para retirada.
+<br>
+<br>    
+![Wireframe 07](img/WF7Perfil.png)
+Disponível através do menu superior, estará a página de perfil, onde o usuário poderá editar e atualizar seus dados fornecidos no cadastro.
+<br>
+<br>    
+![Wireframe 08](img/WF8Contato.png)
+Disponível através do menu superior, estará a página de contato, onde estarão disponíveis as redes sociais da pizzaria e contato de WhatsApp.
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+ </p>
