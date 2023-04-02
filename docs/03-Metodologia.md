@@ -1,77 +1,43 @@
 
 # Metodologia
+<p align="justify">
+Nesta seção estão contempladas as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+## Relação de ambientes de trabalho
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
-## Gerenciamento de Projeto
-
-### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+|Ambiente                       |Plataforma  |Link de acesso                                                                                                          |
+|---------------------------    |----------  |------------------------------------------------------------------------------------------------------------------------|
+|Repositório de código-fonte    |GitHub      |[GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t1-pmv-ads-2023-1-e2-proj-int-t1-time4-piz)|
+|Documentos do projeto          |Google Drive|[Google Drive](https://drive.google.com/drive/folders/1gkqxWfH_FOJLNICULd0HZezAo8I27Q0V)                                | 
+|Gerenciamento do projeto       |Trello      |[Trello](https://trello.com/w/pizzaria98)                                                                               |
+|Gerenciamento de diagramas     |Lucid Chart |[Lucid Chart](https://lucid.app/documents#/documents?folder_id=home)                                                    | 
+|Gerenciamento de wireframes    |Invision App|[Invision App](https://leticiapauli122925.invisionapp.com/freehand/Pizzaria-FA7MzIBsS?dsid_h=41969b54c828608f7684c65cef03e77d299c8832806237d622ae42691177a05d&uid_h=1ce0f13d3f74fcce104656ea47427273bf16868b29d844bcfcc86b3306964cc7)                       | 
+|Gerenciamento do banco de dados|SQL Server Management Studio 2019|                                                                                                   |
+|Gerenciamento de código-fonte|Visual Studio 2019|                                                                                                                    |
+|Serviço de hospedagem da aplicação|Microsoft Azure|                                                                                                                  |
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+## Gestão de código-fonte
 
-### Ferramentas
+Para a gestão do código fonte da aplicação interativa desenvolvida pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), conforme figura a seguir. Desta forma, todas as manutenções no código são realizadas em branch separado, identificado como Develop.
 
-As ferramentas empregadas no projeto são:
+![Git Flow](img/gitflow.png)
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+## Gerenciamento do projeto
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+No tocante à dinâmica de organização da equipe, é preconizada a realização de duas reuniões por semana entre os membros da equipe, e uma reunião por semana com a professora orientadora para apresentação  das entregas, com avaliação e possíveis indicações de ajustes a serem executados, além das orientações para as entregas da semana seguinte. As reuniões são organizadas na seguinte forma:
+1. Reunião semanal com a Professora orientadora, sempre às terças-feiras às 21:30 na plataforma Teams e gravadas sempre que necessário.
+2. Reunião entre os membros da equipe, ordinariamente às quartas-feiras às 16:00 na plataforma Teams. Nesta reunião são discutidos os possíveis ajustes apontados pela Professora na reunião 1, bem como a divisão de tarefas para a próxima entrega.
+3. Reunião entre os membros da equipe, ordinariamente às segundas-feiras às 16:00 na plataforma Teams. Nesta reunião são apresentadas as produções definidas na reunião 2 e feitos os ajustes necessários para a entrega da semana. 
+
+Quanto ao gerenciamento do projeto, foram criados quadros Kanban na ferramenta Trello referentes a cada sprint semanal, transformando o trabalho em andamento visível para toda a equipe, criando um sinal visual que indica que a nova atividade pode ou não ser iniciada e se o prazo acordado está sendo seguido. 
+Para organização e distribuição das atividades do projeto, o Trello foi estruturado com as seguintes listas:
+- Backlog: atividades a serem trabalhadas;
+- To Do: atividades da sprint atual;
+- Doing: atividades iniciadas e que ainda sem conclusão;
+- Done: atividades executadas e prontas para entrega.
+ 
+![Trello](img/trello.png)
+
+</p>
