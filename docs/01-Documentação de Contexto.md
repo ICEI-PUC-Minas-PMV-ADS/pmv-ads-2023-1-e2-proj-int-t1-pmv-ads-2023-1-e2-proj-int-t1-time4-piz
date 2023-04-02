@@ -19,12 +19,6 @@ Diante disso, torna-se fundamental que existam lugares que permitam ao usuário 
 
 Diante do exposto, o problema que se busca resolver com este projeto é a limitação que as pizzarias têm em ter apenas o gerenciamento manual, gerando assim um controle muito básico, o que acaba gerando perdas, por não conseguir controlar de maneira eficiente o estoque, pedidos e tudo mais.
 
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma acessível e interativa para a oferta de recursos de uma pizzaria, tendo em foco fazer o gerenciamento das informações a fim de atender o maior número de pessoas possíveis. Podendo ser destacado em específico os objetivos:
@@ -33,26 +27,11 @@ O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma ace
 * Controle e gerenciamento de cadastros;
 * Manter a organização das informações do negócio;
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Tendo em vista a dificuldade de encontrar sistemas completos de pizzarias, decidimos desenvolver um sistema para esses estabelecimentos, contando com funcionalidades importantes, para que, ao visualizar os números e relatórios de seu restaurante, o proprietário possa propor melhorias para seu negócio, e para que os clientes, ao ter acesso ao cardápio de forma simples e organizada, possa também escolher entre opções inclusivas, caso tenham restrições alimentares. 
-
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 Grandes empresas e redes de franquia possuem maiores recursos financeiros e de pessoal para investir em novas tecnologias e treinamentos de sistemas complexos e completos de gestão. Portanto, o intuito deste projeto é a democratização do acesso à sistemas informatizados.
 Desta forma, estabeleceu-se como público-alvo desta solução, pequenas e médias pizzarias, urbanas ou não, que tenham serviço de delivery ou take-away e que não possuam sistemas de gerenciamento em sua operação ou que sejam precários para atender às suas necessidades. Pequenas e médias pizzarias, geralmente possuem clientela local, permitindo assim que, a partir das especificidades de cada modelo de negócio, e/ou do perfil dos clientes da pizzaria, possam ser feitas personalizações para atender as carências de cada empresa.
-
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
