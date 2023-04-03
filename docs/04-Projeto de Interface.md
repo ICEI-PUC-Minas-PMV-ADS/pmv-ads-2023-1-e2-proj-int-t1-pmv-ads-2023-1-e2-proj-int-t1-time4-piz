@@ -39,7 +39,7 @@ Após a confirmação do pedido, o usuário será direcionado para a página de 
 <br>
 <br>    
 ![Wireframe 07](img/WF7Perfil.png)
-Disponível através do menu superior, estará a página de perfil, onde o usuário poderá editar e atualizar seus dados fornecidos no cadastro.
+Disponível através do menu superior, estará a página de perfil, onde o usuário poderá consultar, editar e atualizar seus dados fornecidos no cadastro.
 <br>
 <br>    
 ![Wireframe 08](img/WF8Contato.png)
