@@ -64,7 +64,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |RNF-001|A aplicação deve ser publicada em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);                | ALTA      |
 |RNF-002|A aplicação deverá ser responsiva permitindo a visualização em diferentes telas de forma adequada.                               | ALTA      |
 |RNF-003|A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade.                                          | MÉDIA     | 
-|RNF-004|A aplicação deve possibilitar que o administrador e usuário façam pesquisa.                                                      | ALTA      |
+|RNF-004|A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).               | ALTA      |
 |RNF-005|A aplicação não permite o recebimento de cadastros de usuários com dados necessários em branco.                                  | BAIXA     |
 |RNF-006|A aplicação deverá informar o erro de cadastro e login para o usuário caso os dados inseridos não estejam no banco de dados.     | BAIXA     |
 |RNF-007|A aplicação deverá realizar backup dos dados principais de cadastros dos clientes para um banco de dados em nuvem.               | ALTA      |
