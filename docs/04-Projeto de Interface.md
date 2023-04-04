@@ -23,7 +23,7 @@ A página de login trará uma imagem e dois campos de formulário para login e s
 <br>
 <br>       
 ![Wireframe 03](img/WF3Cadastro.png)
-A página de cadastro terá uma imagem e campos de formulário para receber do usuário dados de: Nome, Telefone, E-mail e Senha, e um botão para efetivar o cadastro.
+A página de cadastro terá uma imagem e campos de formulário para receber do usuário dados de: Nome, Telefone, Login e Senha, e um botão para efetivar o cadastro.
 <br>
 <br>       
 ![Wireframe 04](img/WF4Cardapio.png)
