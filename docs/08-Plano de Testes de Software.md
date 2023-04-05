@@ -35,7 +35,7 @@
 |	Requisito Associado| RF-10 - A aplicação deve permitir que qualquer usuário possa se cadastrar no site.                  |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar no site.                                               |
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login<br>4. Clicar em cadastrar<br>5. Informar os dados necessários<br>6. Salvar dados                                                                                             |
-| Critério de Êxito  | O cadastro foi realizado com sucesso.                                                               |
+| Critério de Êxito  | Irá aparecer uma mensagem como: O cadastro foi realizado com sucesso.                                                               |
  
 | **Caso de Teste** 	| **CT-06  - Verificar se o usuário consegue efetuar o login**                                                           	             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
