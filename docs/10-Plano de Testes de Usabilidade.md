@@ -2,7 +2,7 @@
 
 Para o teste de usabilidade, será realizado um questionário de UX através da plataforma Google Forms, onde os usuários testados responderão às seguintes perguntas com cinco opções de respostas (Discordo totalmente / Discordo / Neutro / Concordo / Concordo totalmente): 
 
-    1. Acho de gostaria de usar este sistema com frequência
+    1. Acho que gostaria de usar este sistema com frequência
     2. Achei o sistema desnecessariamente complexo.
     3. Achei o sistema fácil de usar.
     4. Achei que seria necessário o apoio de um técnico para poder usar este sistema.
