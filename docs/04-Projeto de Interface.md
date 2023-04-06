@@ -46,7 +46,7 @@ Disponível através do menu superior, estará a página de perfil, onde o usuá
 Disponível através do menu superior, estará a página de contato, onde estarão disponíveis as redes sociais da pizzaria e contato de WhatsApp.
 <br>
 <br>    
-![Wireframe 09](img/WF9Estoque.png)
+![Wireframe 09](img/WF9Estoque.png)<br>
 Disponível através do menu, estará a página de estoque, onde estarão disponíveis o estoque de ingredientes e produtos da pizzaria.
 <br>
 <br>    
