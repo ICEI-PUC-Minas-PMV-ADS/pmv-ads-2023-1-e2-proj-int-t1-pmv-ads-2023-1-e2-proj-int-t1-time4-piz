@@ -20,3 +20,10 @@ Para o teste de usabilidade, será realizado um questionário de UX através da 
 
 
 Com base nas informações coletadas, a equipe de desenvolvimento da aplicação realizará possíveis ajustes e melhorias.
+
+| **Caso de Teste** 	| **CT-07 - Navegadores**                                                                           	|
+|--------------------|-----------------------------------------------------------------------------------------------------|
+|	Requisito Associado| RNF-04- A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).   |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a aplicação interativa em outros navegadores.                                     |
+| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Testar a aplicação em outros navegadores                      |
+| Critério de Êxito  | A aplicação é compatível com os principais navegadores do mercado.                                  | 
