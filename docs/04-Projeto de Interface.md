@@ -50,11 +50,11 @@ Disponível através do menu superior, estará a página de contato, onde estar�
 Disponível através do menu, estará a página de estoque, onde estarão disponíveis o estoque de ingredientes e produtos da pizzaria.
 <br>
 <br>    
-![Wireframe 10](img/WF10Atendimento.png)
+![Wireframe 10](img/WF10Atendimento.png)<br>
 Disponível através do menu, estará a página de atendimento, onde estarão disponíveis os pedidos em atendimento da pizzaria.
 <br>
 <br>    
-![Wireframe 11](img/WF11Gerenciamento.png)
+![Wireframe 11](img/WF11Gerenciamento.png)<br>
 Disponível através do menu, estará a página de gerenciamento, onde estarão disponíveis os relatórios e controle de funcionários da pizzaria.
  
  </p>
