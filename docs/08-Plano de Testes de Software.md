@@ -43,10 +43,4 @@
 | Objetivo do Teste 	| Verificar se o usuário consegue fazer login.                                                                                         |
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login<br>4. Preencher o campo de usuário<br>5. Preencher o campo da senha<br>6. Clicar em Entrar                                                                                                                             |
 | Critério de Êxito  | As informações fornecidas pelo usuário devem ser compatíveis com as do cadastro.<br> A aplicação deverá realizar o login com sucesso.|
- 
-| **Caso de Teste** 	| **CCT-07 - Navegadores**                                                                           	|
-|--------------------|-----------------------------------------------------------------------------------------------------|
-|	Requisito Associado| RNF-04- A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).   |
-| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a aplicação interativa em outros navegadores.                                     |
-| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Testar a aplicação em outros navegadores                      |
-| Critério de Êxito  | A aplicação é compatível com os principais navegadores do mercado.                                  | 
+
