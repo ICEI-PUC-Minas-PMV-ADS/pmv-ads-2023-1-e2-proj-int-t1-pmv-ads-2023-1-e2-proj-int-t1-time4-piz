@@ -1,0 +1,18 @@
+﻿@model Pizza
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <p><img src="@Model.ImagemUrl" class="img-fluid" /></p>
+    <h3>Preço: @Model.Preco.ToString("c") </h3>
+    
+    <a asp-controller="Pizza" asp-action="Details" asp-route-pizzaId="@Model.PizzaId">@Model.PizzaName</a>
+
+    <p>@Model.DescricaoCurta</p>
+
+    <div>
+        <p class="button">
+            <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-PizzaId="@Model.PizzaId">
+                Incluir no Carrinho
+            </a>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model Pizza
+
+<div class="container">
+    <div class="row">
+        <div class="card">
+
+            <div class="text-center">
+                <img src="@Model.ImagemUrl" class="img-fluid" alt="" />
+            </div>
+
+            <div class="card-block">
+                <h2 class="card-title">@Model.PizzaName</h2>
+                <p class="card-text"><h5>@Model.DescricaoDetalhada</h5></p>
+                <p class="btn btn-group align-content-lg-end">
+                    <a asp-controller="Pizza" asp-action="List" class="btn btn-outline-info"> Ver o Cardápio</a>
+
+                    <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-pizzaId="@Model.PizzaId">
+                        Adicionar @Model.PizzaName ao carrinho
+                    </a>
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

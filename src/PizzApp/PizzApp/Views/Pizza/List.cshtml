@@ -1,0 +1,16 @@
+﻿@model PizzaListViewModel
+
+
+<div>
+    <h1>@Model.CategoriaAtual</h1>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        @foreach(var pizza in Model.Pizzas)
+        {
+            <partial name="_PizzasResumo" for="@pizza"/>
+        }
+    </div>
+</div>
