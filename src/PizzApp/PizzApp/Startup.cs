@@ -43,7 +43,7 @@ namespace PizzApp
                 .AddDefaultTokenProviders();
 
             services.ConfigureApplicationCookie(options => options.AccessDeniedPath = "/Home/AcessDenied");
-            services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
+           
 
             services.Configure<IdentityOptions>(options =>
             {
@@ -62,7 +62,7 @@ namespace PizzApp
 
             services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
             services.AddScoped<RelatorioVendasService>();
-            services.AddScoped<GraficoVendasService>();
+           
             
             services.AddAuthorization(options =>
             {

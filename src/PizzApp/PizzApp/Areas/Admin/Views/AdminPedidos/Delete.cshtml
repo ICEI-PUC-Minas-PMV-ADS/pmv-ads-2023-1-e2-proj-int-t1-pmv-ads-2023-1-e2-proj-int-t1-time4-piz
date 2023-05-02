@@ -4,9 +4,9 @@
     ViewData["Title"] = "Delete";
 }
 
-<h2>Deseja deletar este pedido ?</h2>
+<h2>Deseja remover este pedido ?</h2>
 <br />
-<h3><strong>Atenção !!! Ao deletar o pedido seus itens serão excluídos</strong></h3>
+<h3><strong>Atenção !!! Ao remover o pedido seus itens serão excluídos</strong></h3>
 <div>
     <hr />
     <dl class="row">
@@ -79,7 +79,7 @@
     </dl>
     <form asp-action="Delete">
         <input type="hidden" asp-for="PedidoId" />
-        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <input type="submit" value="Remover" class="btn btn-danger" /> |
         <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
     </form>
 </div>

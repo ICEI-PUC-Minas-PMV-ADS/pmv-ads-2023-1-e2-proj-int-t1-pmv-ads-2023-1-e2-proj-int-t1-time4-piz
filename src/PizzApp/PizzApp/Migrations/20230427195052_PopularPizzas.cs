@@ -12,7 +12,7 @@ namespace PizzApp.Migrations
 
             migrationBuilder.Sql("INSERT INTO Pizzas(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsPizzaPreferida,PizzaName,Preco) " +
                 "VALUES(1,'Molho de tomate artesanal, queijo muçarela, queijo parmessão, queijo gorgonzola, queijo provolone','Pizza feita " +
-                "de massa artesanal e preparada no fogão à lenha',10,'~/imagens/pizza4queijos.jpg','~/imagens/pizza4queijos.jpg',0,'Pizza de 4 Queijos',64.00)");
+                "de massa artesanal e preparada no fogão à lenha',10,'https://ibb.co/02PchHf','https://ibb.co/02PchHf',0,'Pizza de 4 Queijos',64.00)");
 
             migrationBuilder.Sql("INSERT INTO Pizzas(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsPizzaPreferida,PizzaName,Preco) " +
                 "VALUES(1,'Molho de tomate artesanal, abobrinha, cebola, queijo muçarela, azeitona','Pizza feita de massa integral artesanal e " +
