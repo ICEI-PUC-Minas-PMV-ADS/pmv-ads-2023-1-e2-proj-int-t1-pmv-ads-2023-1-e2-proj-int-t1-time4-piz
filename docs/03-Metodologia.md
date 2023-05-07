@@ -14,9 +14,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Gerenciamento do projeto       |Trello      |[Jira](https://gerenciamentosite2.atlassian.net/jira/software/projects/PIZ/boards/1)                                  |
 |Gerenciamento de diagramas     |Lucid Chart |[Lucid Chart](https://lucid.app/documents#/documents?folder_id=home)                                                    | 
 |Gerenciamento de wireframes    |Invision App|[Invision App](https://leticiapauli122925.invisionapp.com/freehand/Pizzaria-FA7MzIBsS?dsid_h=41969b54c828608f7684c65cef03e77d299c8832806237d622ae42691177a05d&uid_h=1ce0f13d3f74fcce104656ea47427273bf16868b29d844bcfcc86b3306964cc7)                       | 
-|Gerenciamento do banco de dados|SQL Server Management Studio 2019| [Azure + SQL](https://portal.azure.com/?Microsoft_Azure_Education_correlationId=2a9895954fa64498b5f3ff514ce26ff7&Microsoft_Azure_Education_newA4E=true&Microsoft_Azure_Education_asoSubGuid=3fc9e194-478d-4319-b817-deb62b7f0f16#@leticialayanesgapucminas.onmicrosoft.com/resource/subscriptions/f22ee03b-3a73-483b-9700-b9360ba2ea54/resourceGroups/grupo-puc/providers/Microsoft.Compute/virtualMachines/db01/overview)                                                                                                |
+|Gerenciamento do banco de dados|SQL Server Management Studio 2019| [Azure + SQL](https://portal.azure.com/?Microsoft_Azure_Education_correlationId=2a9895954fa64498b5f3ff514ce26ff7&Microsoft_Azure_Education_newA4E=true&Microsoft_Azure_Education_asoSubGuid=3fc9e194-478d-4319-b817-deb62b7f0f16#@leticialayanesgapucminas.onmicrosoft.com/resource/subscriptions/f22ee03b-3a73-483b-9700-b9360ba2ea54/resourceGroups/grupo-puc/providers/Microsoft.Compute/virtualMachines/db01/overview)                                                                                                        |
 |Gerenciamento de código-fonte|Visual Studio 2019|                                                                                                                    |
-|Serviço de hospedagem da aplicação|Microsoft Azure|                                                                                                                  |
+|Serviço de hospedagem da aplicação|Microsoft Azure|[Azure](https://pizzapp20230505203628.azurewebsites.net/)                                                         |
+ 
  
 ## Gestão de código-fonte
 
@@ -40,6 +41,6 @@ Para organização e distribuição das atividades do projeto, o Trello foi estr
 - Doing: atividades iniciadas e que ainda sem conclusão;
 - Done: atividades executadas e prontas para entrega.
  
-![Trello](img/trello.png)
+![Trello](img/projetojira.png)
 
 </p>
