@@ -24,9 +24,9 @@ O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma ace
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+ link da aplicação interativa disponível para acesso (https://pizzapp20230505203628.azurewebsites.net/).
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Usuário de teste, o login e a senha aqui ( usuário - admin@localhost / senha - Numsey#2022).
 
 O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
