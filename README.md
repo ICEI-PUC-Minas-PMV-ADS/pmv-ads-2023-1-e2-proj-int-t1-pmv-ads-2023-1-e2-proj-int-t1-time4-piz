@@ -13,8 +13,9 @@ O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma ace
 * Douglas Zoccarato Gomes
 * Leticia Layane Pauli
 * Lia Araruna de Lima
-* Matheus Silva Leão
 * Matheus Araujo Rios Fernandino
+* Matheus Silva Leão
+
 
 ## Orientador
 
