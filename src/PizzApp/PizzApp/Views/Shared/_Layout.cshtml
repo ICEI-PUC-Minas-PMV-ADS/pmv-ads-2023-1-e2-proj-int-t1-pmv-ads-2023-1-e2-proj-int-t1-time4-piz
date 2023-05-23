@@ -20,6 +20,11 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     @await Component.InvokeAsync("CarrinhoCompraResumo")
+
+                    @if (User.IsInRole("Funcionarios"))
+                    {
+                        <a class="nav-link text-light" asp-area="Funcionarios" asp-controller="Funcionarios" asp-action="Index">Controle</a>
+                    }
                     
                     <form class="navbar-form navbar-right" asp-controller="Pizza" asp-action="Search" method="get">
                         <div class="form-group">
@@ -34,7 +39,10 @@
                     <a class="nav-link text-light" asp-area="" asp-controller="Pizza" asp-action="List">Cardápio</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
+
                    
+                    
+                    
                 </div>
             </div>
         </nav>

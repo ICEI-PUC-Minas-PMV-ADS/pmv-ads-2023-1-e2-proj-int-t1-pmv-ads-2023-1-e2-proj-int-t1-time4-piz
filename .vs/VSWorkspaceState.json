@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\PizzApp",
-    "\\src\\PizzApp\\PizzApp",
-    "\\src\\PizzApp\\PizzApp\\Areas",
-    "\\src\\PizzApp\\PizzApp\\Areas\\Admin",
-    "\\src\\PizzApp\\PizzApp\\Areas\\Admin\\Controllers"
+    ""
   ],
-  "SelectedNode": "\\src\\PizzApp\\PizzApp\\Areas\\Admin\\Controllers\\teste",
+  "SelectedNode": "\\PizzApp.sln",
   "PreviewInSolutionExplorer": false
 }

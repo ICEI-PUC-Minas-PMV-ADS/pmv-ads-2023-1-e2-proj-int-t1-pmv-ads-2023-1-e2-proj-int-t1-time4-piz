@@ -73,6 +73,15 @@ namespace PizzApp
                     });
             });
 
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Funcionarios",
+                    politica =>
+                    {
+                        politica.RequireRole("Funcionarios");
+                    });
+            });
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
@@ -123,6 +132,11 @@ namespace PizzApp
                 endpoints.MapControllerRoute(
                        name: "areas",
                        pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
+                     );
+
+                endpoints.MapControllerRoute(
+                       name: "areas",
+                       pattern: "{area:exists}/{controller=Funcionarios}/{action=Index}/{id?}"
                      );
 
                 endpoints.MapControllerRoute(
