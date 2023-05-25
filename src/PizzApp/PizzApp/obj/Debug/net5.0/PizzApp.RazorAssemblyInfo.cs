@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("PizzApp.Views")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

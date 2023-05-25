@@ -4,10 +4,10 @@
     "\\src",
     "\\src\\PizzApp",
     "\\src\\PizzApp\\PizzApp",
-    "\\src\\PizzApp\\PizzApp\\Areas",
-    "\\src\\PizzApp\\PizzApp\\Areas\\Admin",
-    "\\src\\PizzApp\\PizzApp\\Areas\\Admin\\Controllers"
+    "\\src\\PizzApp\\PizzApp\\Views",
+    "\\src\\PizzApp\\PizzApp\\Views\\Home",
+    "\\src\\PizzApp\\PizzApp\\Views\\Shared"
   ],
-  "SelectedNode": "\\src\\PizzApp\\PizzApp\\Areas\\Admin\\Controllers\\teste",
+  "SelectedNode": "\\src\\PizzApp\\PizzApp.sln",
   "PreviewInSolutionExplorer": false
 }
