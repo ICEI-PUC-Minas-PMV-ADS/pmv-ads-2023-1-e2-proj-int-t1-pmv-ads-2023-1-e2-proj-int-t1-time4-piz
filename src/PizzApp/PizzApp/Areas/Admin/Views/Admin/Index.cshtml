@@ -1,10 +1,39 @@
-﻿<br />
-<img src="~/imagens/adminarea.jpg" alt="Area de Administração" class="marginTop1" width="120" height="120" />
-<div class="container">
-    <div cite="jumbotron">
-        <p>
-            <h2>Area do Administrador</h2>
-        </p>
+﻿<div class="text-center">
+    <h1 class="display-4">PizzApp</h1>
+
+    <div class="container" style="display:flex; flex-flow:row">
+        <div id="card" style="margin: 5% 3% 3%; padding-bottom: 5%; width: 25%">
+            <div id="icone" style="padding: 10%; margin: 0">
+                <img src="~/imagens/produtos.png" class="img-fluid" alt="icone pedido" />
+                <a class="btn btn-outline-dark" style="margin-top:7%" asp-area="Admin" asp-controller="AdminPizzas" asp-action="Index" role="button">PRODUTOS</a>
+            </div>
+        </div>
+        <div id="card" style="margin: 5% 3% 3%; padding-bottom: 5%; width: 25%">
+            <div id="icone" style="padding: 10%; margin: 0">
+                <img src="~/imagens/categorias.png" class="img-fluid" alt="icone estoque" />
+                <a class="btn btn-outline-dark" style="margin-top:7%" asp-area="Admin" asp-controller="AdminCategorias" asp-action="Index" role="button">CATEGORIAS</a>
+            </div>
+        </div>
+        <div id="card" style="margin: 5% 3% 3%; padding-bottom: 5%; width: 25%">
+            <div id="icone" style="padding: 10%; margin: 0">
+                <img src="~/imagens/pedidos.png" class="img-fluid" alt="icone clientes" />
+                <a class="btn btn-outline-dark" style="margin-top:7%" asp-area="Admin" asp-controller="AdminPedidos" asp-action="Index" role="button">PEDIDOS</a>
+            </div>
+        </div>
+        <div id="card" style="margin: 5% 3% 3%; padding-bottom: 5%; width: 25%">
+            <div id="icone" style="padding: 10%; margin: 0">
+                <img src="~/imagens/relatoriovendas.png" class="img-fluid" alt="icone clientes" />
+                <a class="btn btn-outline-dark" style="margin-top:7%" asp-area="Admin" asp-controller="AdminRelatorioVendas" asp-action="Index" role="button">RELATÓRIO DE VENDAS</a>
+            </div>
+        </div>
+        <div id="card" style="margin: 5% 3% 3%; padding-bottom: 5%; width: 25%">
+            <div id="icone" style="padding: 10%; margin: 0">
+                <img src="~/imagens/relatorioestoque.png" class="img-fluid" alt="icone clientes" />
+                <a class="btn btn-outline-dark" style="margin-top:7%" asp-area="Admin" asp-controller="AdminRelatorioEstoque" asp-action="Index" role="button">RELATÓRIO DE ESTOQUE</a>
+            </div>
+        </div>
+
     </div>
-    <a asp-area="" asp-controller="Home" asp-action="Index">Home Page</a>
+
 </div>
+

@@ -8,10 +8,10 @@
 <h1>Itens do Pedido</h1>
 <hr />
 
-<h3>Pedido : @Html.DisplayFor(model => @Model.Pedido.PedidoId)</h3>
-<h3>Cliente : @Html.DisplayFor(model => @Model.Pedido.Nome)</h3>
-    <h3>Data : @Html.DisplayFor(model => @Model.Pedido.PedidoEnviado)</h3>
-    <h3>Entrega : @Html.DisplayFor(model => @Model.Pedido.PedidoEntregueEm)</h3>
+<h5>Pedido : @Html.DisplayFor(model => @Model.Pedido.PedidoId)</h5>
+<h5>Cliente : @Html.DisplayFor(model => @Model.Pedido.Nome)</h5>
+    <h5>Data : @Html.DisplayFor(model => @Model.Pedido.PedidoEnviado)</h5>
+    <h5>Entrega : @Html.DisplayFor(model => @Model.Pedido.PedidoEntregueEm)</h5>
 
 <table class="table">
     @foreach (var item in @Model.Pedido.PedidoItens)
@@ -20,24 +20,24 @@
         //totalPedido = @item.Pedido.PedidoTotal;
 
         <tr>
-            <td align="right">
-                <h3>@Html.DisplayFor(modelItem => item.Pizza.PizzaName)</h3>
+            <td align="left">
+                <h4>@Html.DisplayFor(modelItem => item.Pizza.PizzaName)</h4>
             </td>
-            <td align="right">
+            <td align="left">
                <img src="@item.Pizza.ImagemUrl" class="img-fluid" height="100" width="100"/>
             </td>
             <td align="right">
-                <h3>@string.Format("{0:C}", item.Pizza.Preco)</h3>
+                <h4>@string.Format("{0:C}", item.Pizza.Preco)</h4>
             </td>
             <td align="right">
-                <h3>@Html.DisplayFor(modelItem => item.Quantidade)</h3>
+                <h4>Qtde. @Html.DisplayFor(modelItem => item.Quantidade)</h4>
             </td>
         </tr>
     }
     <tr>
-        <td colspan="2">&nbsp;</td>
+        <td colspan="3">&nbsp;</td>
         <td align="right">
-            <h3>Total do Pedido : @string.Format("{0:C}", @totalPedido)</h3>
+            <h4>Total do Pedido : @string.Format("{0:C}", @totalPedido)</h4>
         </td>
     </tr>
 </table>

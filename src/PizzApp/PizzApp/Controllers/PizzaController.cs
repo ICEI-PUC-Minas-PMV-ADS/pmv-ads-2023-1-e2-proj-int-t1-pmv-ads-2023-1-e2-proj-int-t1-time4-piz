@@ -25,7 +25,7 @@ namespace PizzApp.Controllers
             if (string.IsNullOrEmpty(categoria))
             {
                 pizzas = _pizzaRepository.Pizzas.OrderBy(l => l.PizzaId);
-                categoriaAtual = "Todos as Pizzas";
+                categoriaAtual = "Todas as Pizzas";
             }
             else
             {

@@ -8,21 +8,21 @@ namespace PizzApp.Models
     {
         [Key]
         public int PizzaId { get; set; }
-        [Required(ErrorMessage ="O nome da pizza deve ser informada")]
-        [Display(Name ="Nome da pizza")]
-        [StringLength(80, MinimumLength = 10, ErrorMessage ="O {0} deve ter no mínimo {1} e no máximo {2}")]
+        [Required(ErrorMessage ="O nome do produto deve ser informado")]
+        [Display(Name ="Nome do produto")]
+        [StringLength(80, MinimumLength = 5, ErrorMessage ="O {0} deve ter no máximo {1} e no mínimo {2}")]
         public string PizzaName { get; set; }
-        [Required(ErrorMessage ="A descrição da pizza deve ser informada")]
-        [Display(Name = "Descrição da pizza")]
-        [MinLength(20, ErrorMessage ="A descrição deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage ="A descrição do produto deve ser informada")]
+        [Display(Name = "Descrição do produto")]
+        [MinLength(10, ErrorMessage ="A descrição deve ter no mínimo {1} caracteres")]
         [MaxLength(200, ErrorMessage ="A descrição não pode exceder {1} caracteres")]
         public string DescricaoCurta { get; set; }
-        [Required(ErrorMessage = "A descrição detalhada da pizza deve ser informada")]
-        [Display(Name = "Descrição detalhada da pizza")]
-        [MinLength(20, ErrorMessage = "A descrição detalhada deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "A descrição detalhada do produto deve ser informada")]
+        [Display(Name = "Descrição detalhada do produto")]
+        [MinLength(10, ErrorMessage = "A descrição detalhada deve ter no mínimo {1} caracteres")]
         [MaxLength(200, ErrorMessage = "A descrição detalhada não pode exceder {1} caracteres")]
         public string DescricaoDetalhada { get; set; }
-        [Required(ErrorMessage ="Informe o preço da pizza")]
+        [Required(ErrorMessage ="Informe o preço do produto")]
         [Display(Name ="Preço")]
         [Column(TypeName ="decimal(10,2)")]
         [Range(1,999.99, ErrorMessage="O preço deve estar entre 1 e 999,99")]

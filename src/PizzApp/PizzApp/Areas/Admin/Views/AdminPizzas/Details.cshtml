@@ -7,7 +7,7 @@
 <h1>Detalhes</h1>
 
 <div>
-    <h4>Pizza</h4>
+    <h4>Produto</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -33,25 +33,7 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Preco)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagemUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagemUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagemThumbnailUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagemThumbnailUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IsPizzaPreferida)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IsPizzaPreferida)
-        </dd>
+        </dd>        
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.EmEstoque)
         </dt>
@@ -68,5 +50,5 @@
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.PizzaId">Editar</a> |
-    <a asp-action="Index">Retornar</a>
+    <a asp-action="Index">Voltar</a>
 </div>

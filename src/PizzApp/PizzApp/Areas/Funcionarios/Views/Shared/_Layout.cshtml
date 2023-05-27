@@ -6,18 +6,22 @@
     <title>@ViewData["Title"] - Admin</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.css" rel="stylesheet" />
+
+    
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="Funcionarios" asp-controller="Funcionarios" asp-action="Index">Controle</a>
-                <div class="navbar-collapse collapse d-sm-inline-flex">
+                <a class="navbar-brand" asp-area="Funcionarios" asp-controller="Funcionarios" asp-action="Index">Gerenciamento</a>
+                <!--<div class="navbar-collapse collapse d-sm-inline-flex">
                     <a class="nav-link text-light" asp-area="Funcionarios" asp-controller="FuncionariosPizzas" asp-action="Index">Produtos</a>
                     <a class="nav-link text-light" asp-area="Funcionarios" asp-controller="FuncionariosCategorias" asp-action="Index">Categorias</a>
                     <a class="nav-link text-light" asp-area="Funcionarios" asp-controller="FuncionariosPedidos" asp-action="Index">Pedidos</a>
                     <a class="nav-link text-light" asp-area="Funcionarios" asp-controller="FuncionariosRelatorioEstoque" asp-action="Index">Relatório de Estoques</a>
-                </div>
+                </div>-->
             </div>
         </nav>
     </header>
@@ -28,11 +32,12 @@
     </div>
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - PizzApp
+            &copy; 2023 - PizzApp - <a asp-area="" asp-controller="Home" asp-action="Index">HomePage</a>
         </div>
-    </footer>
+    </footer>    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>

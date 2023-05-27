@@ -1,4 +1,4 @@
-﻿@model ReflectionIT.Mvc.Paging.PagingList<PizzApp.Models.Pedido>
+﻿@model IEnumerable<PizzApp.Models.Pedido>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,25 +6,18 @@
 
 <h3>Pedidos</h3>
 
-<form method="get" class="form-inline">
-    <input name="filter" class="form-control" placeholder="filtro" 
-           value="@Model.RouteValue["filter"]" />
-    <button type="submit" class="btn btn-info">
-        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
-    </button>
-</form>
-
-Total de Pedidos : @Model.TotalRecordCount
-<div>
-    <vc:pager paging-list="@Model"></vc:pager>
-</div>
-
 <p>
-    <a asp-action="Create">Criar novo pedido</a>
+    <a asp-action="Create">Criar novo pedido</a> |
+    <a asp-controller="Admin" asp-action="Index">Voltar</a>
 </p>
-<table class="table">
+
+<div class="table-responsive-md">
+<table class="table table-hover" id="table-pedidos">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayName("#")
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -53,9 +46,6 @@ Total de Pedidos : @Model.TotalRecordCount
                 @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PedidoEnviado)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.PedidoEntregueEm)
             </th>
             <th></th>
@@ -64,6 +54,9 @@ Total de Pedidos : @Model.TotalRecordCount
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PedidoId)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
@@ -92,9 +85,6 @@ Total de Pedidos : @Model.TotalRecordCount
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PedidoEnviado)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.PedidoEntregueEm)
             </td>
             <td>
@@ -107,3 +97,4 @@ Total de Pedidos : @Model.TotalRecordCount
 }
     </tbody>
 </table>
+</div>

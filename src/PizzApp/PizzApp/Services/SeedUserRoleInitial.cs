@@ -32,6 +32,14 @@ namespace PizzApp.Services
                 role.NormalizedName = "ADMIN";
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
+
+            if (!_roleManager.RoleExistsAsync("Funcionarios").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "Funcionarios";
+                role.NormalizedName = "FUNCIONARIOS";
+                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
+            }
         }
 
         public void SeedUsers()
@@ -71,6 +79,25 @@ namespace PizzApp.Services
                 if (result.Succeeded)
                 {
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
+                }
+            }
+
+            if (_userManager.FindByEmailAsync("funcionarios@localhost").Result == null)
+            {
+                IdentityUser user = new IdentityUser();
+                user.UserName = "funcionarios@localhost";
+                user.Email = "funcionarios@localhost";
+                user.NormalizedUserName = "FUNCIONARIOS@LOCALHOST";
+                user.NormalizedEmail = "FUNCIONARIOS@LOCALHOST";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "Numsey#2022").Result;
+
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Funcionarios").Wait();
                 }
             }
         }
