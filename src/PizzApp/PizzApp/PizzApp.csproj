@@ -6,6 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Funcionarios\Views\AdminRelatorioEstoque\**" />
+    <Compile Remove="Areas\Funcionarios\Views\NovaPasta\**" />
+    <Content Remove="Areas\Funcionarios\Views\AdminRelatorioEstoque\**" />
+    <Content Remove="Areas\Funcionarios\Views\NovaPasta\**" />
+    <EmbeddedResource Remove="Areas\Funcionarios\Views\AdminRelatorioEstoque\**" />
+    <EmbeddedResource Remove="Areas\Funcionarios\Views\NovaPasta\**" />
+    <None Remove="Areas\Funcionarios\Views\AdminRelatorioEstoque\**" />
+    <None Remove="Areas\Funcionarios\Views\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 

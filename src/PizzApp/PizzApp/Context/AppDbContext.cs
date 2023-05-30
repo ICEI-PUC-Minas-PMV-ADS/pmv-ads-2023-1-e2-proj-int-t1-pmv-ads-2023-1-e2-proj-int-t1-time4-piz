@@ -15,6 +15,8 @@ namespace PizzApp.Context
         public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<PedidoDetalhe> PedidosDetalhes { get; set; }
+        public object Produtos { get; internal set; }
+        public DbSet<EstoqueModel> ProdutosEstoque { get; set; }
     }
 }
 

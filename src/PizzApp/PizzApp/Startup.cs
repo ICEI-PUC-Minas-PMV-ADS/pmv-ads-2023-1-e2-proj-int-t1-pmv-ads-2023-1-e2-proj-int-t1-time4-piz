@@ -59,6 +59,7 @@ namespace PizzApp
             services.AddTransient<IPizzaRepository, PizzaRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
+            services.AddTransient<IEstoqueRepositorio, EstoqueRepositorio>();
 
             services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
             services.AddScoped<RelatorioVendasService>();
@@ -118,7 +119,7 @@ namespace PizzApp
 
             //cria os perfis
             seedUserRoleInitial.SeedRoles();
-            //cria os usuários e atribui ao perfil
+            //cria os usuï¿½rios e atribui ao perfil
             seedUserRoleInitial.SeedUsers();
 
             app.UseSession();
