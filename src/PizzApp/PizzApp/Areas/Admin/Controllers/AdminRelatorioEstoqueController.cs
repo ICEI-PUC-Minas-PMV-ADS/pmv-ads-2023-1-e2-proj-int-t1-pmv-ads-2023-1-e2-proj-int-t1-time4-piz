@@ -21,6 +21,13 @@ namespace PizzApp.Areas.Admin.Controllers
             return View(produtos);
         }
 
+        public IActionResult GerarRelatorio()
+        {
+            List<EstoqueModel> produtos = _estoqueRepositorio.BuscarTodos();
+
+            return View(produtos);
+        }
+
         public IActionResult Criar()
         {
             return View();

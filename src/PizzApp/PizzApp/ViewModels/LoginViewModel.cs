@@ -9,8 +9,9 @@ namespace PizzApp.ViewModels
         public string UserName { get; set; }
 
         [Required(ErrorMessage ="Informe a senha")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{6,}$",
+        ErrorMessage = "A senha deve conter no mínimo 6 caracteres, sendo pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial.")]
         [DataType(DataType.Password)]
-        [Display(Name ="Senha")]
         public string Password { get; set; }
         public string ReturnUrl { get; set; }
 

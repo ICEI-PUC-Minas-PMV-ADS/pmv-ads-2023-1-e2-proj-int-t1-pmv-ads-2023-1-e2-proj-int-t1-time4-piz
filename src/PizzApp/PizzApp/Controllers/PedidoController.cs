@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PizzApp.Models;
+using PizzApp.Repositories;
 using PizzApp.Repositories.Interfaces;
 using System.Collections.Generic;
 
@@ -72,5 +73,13 @@ namespace PizzApp.Controllers
 
             return View(pedido);
         }
+        /*
+        public IActionResult AcompanharPedido()
+        {
+
+            return View(pedidos);
+            
+        }
+        */
     }
 }

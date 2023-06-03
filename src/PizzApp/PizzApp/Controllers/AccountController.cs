@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using PizzApp.ViewModels;
 using System.Threading.Tasks;
 
@@ -66,6 +67,15 @@ namespace PizzApp.Controllers
         {
             if(ModelState.IsValid)
             {
+
+                // Verificar se o usuário já existe
+                var existingUser = await _userManager.FindByNameAsync(registroVM.UserName);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Registro", "O nome de usuário já está em uso.");
+                    return View(registroVM);
+                }
+
                 var user = new IdentityUser { UserName = registroVM.UserName };
                 var result = await _userManager.CreateAsync(user, registroVM.Password);
 

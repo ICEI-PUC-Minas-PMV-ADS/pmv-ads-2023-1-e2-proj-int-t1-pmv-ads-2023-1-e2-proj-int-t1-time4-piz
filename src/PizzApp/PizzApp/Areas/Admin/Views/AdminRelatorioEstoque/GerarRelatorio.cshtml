@@ -1,0 +1,41 @@
+﻿@model List<EstoqueModel>
+@{
+    ViewData["Title"] = "Relatório de Estoque";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="AdminRelatorioEstoque" asp-action="Index">Voltar</a>
+    </div>
+    <br />
+
+    <h1 class="display-4">Relatório de Ingredientes</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (EstoqueModel produto in Model)
+                {
+                    <tr>
+                        <th scope="row">@produto.Id</th>
+                        <td>@produto.Nome_Produtos</td>
+                        <td>@produto.Quantidade_Produtos</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
+
+</div>
