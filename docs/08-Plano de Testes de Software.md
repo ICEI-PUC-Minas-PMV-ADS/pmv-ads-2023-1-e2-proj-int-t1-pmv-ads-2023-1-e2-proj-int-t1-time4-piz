@@ -17,7 +17,7 @@
 | Critério de Êxito  | As informações das pizzas devem ser exibidas corretamente no site, sendo necessários pelo menos 5 sabores sendo apresentados. <br> As imagens das pizzas devem estar relacionadas ao sabor.                                                                              |
 | **Caso de Teste** 	| **CT-03 - Cadastrar sabores e ingredientes**                                                         |
 |--------------------|-----------------------------------------------------------------------------------------------------|
-|	Requisito Associado| RF-04 - A aplicação deve permitir ao gestor cadastrar, alterar e remover sabores de pizzas, ingredientes e promoções.<br> RF-05 - A aplicação deve permitir que o usuário adicione e remova ingredientes.|
+|	Requisito Associado| RF-04 - A aplicação deve permitir ao gestor cadastrar, alterar e remover sabores de pizzas, ingredientes e promoções.<br> RF-05 - A aplicação deve permitir que o usuário adicione e remova ingredientes.<br> RF-12 - A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários. |
 | Objetivo do Teste 	| Verificar se os produtos são cadastrados, editados e excluídos.               |
 | Passos 	           | 1. Acessar o Navegador <br> 2. Informar o endereço do Site <br> 3. Acessar o perfil de administrador <br> 4. Clicar em criar novo, clicar em editar e clicar em remover <br> 5. Adicionar, editar e remover as informações <br> 6. Salvar|
 | Critério de Êxito  | Verificar se o usuário consegue adicionar, editar e remover novos sabores, ingredientes e promoções.<br> Verificar se o usuário consegue adicionar, editar e remover um novo sabor.|
@@ -34,20 +34,20 @@
 |	Requisito Associado| RF-07- A aplicação deve oferecer ao gestor uma funcionalidade de relatório de estoque dos produtos da pizzaria.|
 | Objetivo do Teste 	| Geração de relatório para verificar o estoque.                                                      |
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login<br>4. Preencher campo de usuário<br>5. Preencher o campo da senha<br>6. Clicar em Entrar<br>7. No menu, clicar em gerar relatório<br>8. Clicar no botão gerar                       |
-| Critério de Êxito  | Relatório gerado com sucesso                                     .                                  |
+| Critério de Êxito  | O relatório de estoque será gerado com sucesso                                     .                                  |
 
  | **Caso de Teste** 	| **CT-06 - Contatos**                                                                      	|
 |--------------------|-----------------------------------------------------------------------------------------------------|
 |	Requisito Associado| RF-08 - A aplicação deve permitir visualizar as informações de contatos do desenvolvedor do site.                  |
 | Objetivo do Teste 	| Verificar se o usuário consegue se ver os contados do site.                                               |
-| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar o rodapé do site <br>4. verificar se os contatos aparecem|
+| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar o rodapé do site <br>4. Verificar se os contatos aparecem|
 | Critério de Êxito  | Irá aparecer uma página com os contatos do site  
  
- | **Caso de Teste** 	| **CT-07 - Relatório de vendas**                                                                    |
+ | **Caso de Teste** 	| **CT-07 - Relatório de Vendas**                                                                    |
 |--------------------|-----------------------------------------------------------------------------------------------------|
 |	Requisito Associado| RF-09 - A aplicação deve oferecer ao gestor uma funcionalidade de relatório de vendas..             |
 | Objetivo do Teste 	| Verificar se o administrador consegue gerar o relatório de vendas.                                  |
-| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login de administrador<br>4. Clicar gerenciamento <br>5. clicar em relatório de vendas<br>6. gerar relatório|
+| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login de administrador<br>4. Clicar gerenciamento <br>5. Clicar em relatório de vendas<br>6. Gerar relatório|
 | Critério de Êxito  | Irá gerar um relatório de vendas.   
  
 | **Caso de Teste** 	| **CT-08 - Cadastrar usuário**                                                                      	|
