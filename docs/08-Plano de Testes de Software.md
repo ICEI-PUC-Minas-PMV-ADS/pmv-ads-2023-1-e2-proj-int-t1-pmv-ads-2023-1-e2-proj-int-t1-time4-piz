@@ -61,23 +61,18 @@
  
 | **Caso de Teste** 	| **CT-09  - Verificar se o usuário consegue efetuar o login**                                                           	             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-|	Requisito Associado| RF-11 - A aplicação deve permitir que os usuários tenham acesso aos dados do próprio cadastro para editar ou excluir.                |
+|	Requisito Associado| RF-11 - A aplicação deve permitir que os usuários realizem seus pedidos após a realização do login                |
 | Objetivo do Teste 	| Verificar se o usuário consegue ver os dados do próprio cadastro.                                                                    |
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login<br>4. Preencher o campo de usuário<br>5. Preencher o campo da senha<br>6. Clicar em Entrar |
 | Critério de Êxito  | As informações fornecidas pelo usuário devem ser compatíveis com as do cadastro.<br> A aplicação deverá realizar o login com sucesso.|
  
-| **Caso de Teste** 	| **CT-10  - Verificar se o usuário consegue efetuar o login**                                                           	             |
+| **Caso de Teste** 	| **CT-10  - Atualização de estoque**                                                           	             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 |	Requisito Associado| RF-12 - A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários. |
 | Objetivo do Teste 	| Verificar se o usuário consegue adicionar, editar e excluir os produtos no estoque.                                                                                         |
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login como administrador <br>4. Ir na aba gerenciamento <br>5. ir na aba de cadastrar produtos <br>6. Clicar em salvar |
 | Critério de Êxito  | As informações do estoque devem ser adicionadas, editadas e excluídas com sucesso.|
  
-| **Caso de Teste** 	| **CT-11  - Verificar os contatos do site**                                                           	             |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-|	Requisito Associado| RF-12 - A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários. |
-| Objetivo do Teste 	| Verificar se o usuário consegue visualizar os contatos do site. |
-| Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de contatos <br>4. verificar se os contatos dos gestores do site aparecem <br>|
-| Critério de Êxito  | As informações do contato dos gestores do site devem aparecer com sucesso.|
+
 
 
