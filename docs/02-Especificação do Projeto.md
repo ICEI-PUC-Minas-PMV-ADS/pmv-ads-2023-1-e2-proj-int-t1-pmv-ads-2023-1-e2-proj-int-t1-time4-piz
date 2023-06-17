@@ -51,9 +51,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-008|A aplicação deve permitir visualizar as informações de contatos do mantenedor do site.                                           | BAIXA    | 
 |RF-009|A aplicação deve oferecer ao gestor uma funcionalidade de relatório de vendas.                                                   | ALTA     | 
 |RF-010|A aplicação deve permitir que qualquer usuário possa se cadastrar no site.                                                       | BAIXA    | 
-|RF-011|A aplicação deve permitir que os usuários tenham acesso aos dados do próprio cadastro para editar ou excluir.                    | BAIXA    | 
+|RF-011|A aplicação deve permitir que os usuários realizem seus pedidos após a realização do login                                       | ALTA     | 
 |RF-012|A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários.                                   | MÉDIA    | 
-|RF-013|A aplicação deve possuir uma área de contato, onde qualquer usuário pode enviar um formulário de contato para o e-mail do gestor.| BAIXA    | 
  
 ### Requisitos não Funcionais
  
