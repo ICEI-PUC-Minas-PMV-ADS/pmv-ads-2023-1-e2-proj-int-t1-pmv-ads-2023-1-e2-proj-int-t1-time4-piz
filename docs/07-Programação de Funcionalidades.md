@@ -1,28 +1,27 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
-
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
+A medida que os requisitos funcionais foram implementados na aplicação, foram gerados artefatos. A correlação está descrita na tabela abaixo:
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|------|---------------------------------------------------------------------------------------------------------------------------------|----------|
+|RF-001|A aplicação deve apresentar na página principal informações sobre a história da pizzaria.       | PizzApp/views/home/index.cshtml | 
+|RF-002|A aplicação deve apresentar, para cada pizza, uma imagem correspondente. (thumbnail).           | PizzApp/views/pizza/list.cshtml     |
+|RF-003|A aplicação deve permitir ao usuário visualizar o cardápio completo da pizzaria com todos os detalhes dos ingredientes. | PizzApp/views/pizza/list.cshtml | 
+|RF-004|A aplicação deve permitir ao gestor cadastrar, alterar e remover sabores de pizzas, ingredientes e promoções.| PizzApp/Areas/Admin/Views/AdminPizzas/index.cshtml; create.cshtml; edit.cshtml; delete.cshtml| 
+|RF-005|A aplicação deve permitir que o usuário adicione e remova ingredientes.                         | PizzApp/Views/Pizza/details.cshtml    | 
+|RF-006|A aplicação permite que o usuário realize os seus pedidos diretamente por ele.                  | PizzApp/PizzApp/Views/CarrinhoCompra/index.cshtml | 
+|RF-007|A aplicação deve oferecer ao gestor uma funcionalidade de relatório de estoque dos produtos da pizzaria.   | PizzApp/PizzApp/Areas/Admin/Views/AdminRelatorioEstoque/index.cshtml; criar.cshtml; editar.cshtml; GerarRelatorio.cshtml; RemoverConfirmacao.cshtml     | 
+|RF-008|A aplicação deve permitir visualizar as informações de contatos do mantenedor do site.           | PizzApp/Views/Contato/Index.cshtml    | 
+|RF-009|A aplicação deve oferecer ao gestor uma funcionalidade de relatório de vendas.           | PizzApp/Areas/Admin/Servicos/RelatorioVendasService.cs   | 
+|RF-010|A aplicação deve permitir que qualquer usuário possa se cadastrar no site.                           | PizzApp/Views/Account/Register.cshtml| 
+|RF-011|A aplicação deve permitir que os usuários realizem seus pedidos após a realização do login            | PizzApp/Views/Pedido/Checkout.cshtml | 
+|RF-012|A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários|PizzApp/Areas/Funcionarios/Views/FuncionarioRelatorioEstoque/index.cshtml; criar.cshtml; editar.cshtml; RemoverConfirmacao.cshtml| 
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+A aplicação está disponível através do link:
+[PizzApp](https://pizzapp20230613222420.azurewebsites.net/).
+<br><br>
+Para testes de usuário do tipo "cliente", o registro é livre.<br>
+Para testes de usuário do tipo "funcionário", utilizar a credencial: usuário - funcionarios@localhost / senha - Numsey#2022<br>
+Para testes de usuário do tipo "administrador", utilizar a credencial: usuário - admin@localhost / senha - Numsey#2022
