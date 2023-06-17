@@ -15,6 +15,8 @@
 | Objetivo do Teste 	| Verificar se a aplicação apresenta corretamente o cardápio.                                         |
 | Passos 	           | 1. Acessar o Navegador <br> 2. Informar o endereço do Site <br> 3. Acessar o menu do cardápio <br> 4. Verificar se as imagens e as informações das pizzas estão carregando corretamente                                                                                   |
 | Critério de Êxito  | As informações das pizzas devem ser exibidas corretamente no site, sendo necessários pelo menos 5 sabores sendo apresentados. <br> As imagens das pizzas devem estar relacionadas ao sabor.                                                                              |
+
+
 | **Caso de Teste** 	| **CT-03 - Cadastrar sabores e ingredientes**                                                         |
 |--------------------|-----------------------------------------------------------------------------------------------------|
 |	Requisito Associado| RF-04 - A aplicação deve permitir ao gestor cadastrar, alterar e remover sabores de pizzas, ingredientes e promoções.<br> RF-05 - A aplicação deve permitir que o usuário adicione e remova ingredientes.<br> RF-12 - A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários. |
