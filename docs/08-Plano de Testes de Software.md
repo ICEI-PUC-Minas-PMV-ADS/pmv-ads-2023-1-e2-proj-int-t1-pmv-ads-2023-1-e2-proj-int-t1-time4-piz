@@ -59,7 +59,7 @@
 | Passos 	           | 1. Acessar o Navegador<br>2. Informar o endereço do Site<br>3. Acessar a aba de login<br>4. Clicar em cadastrar<br>5. Informar os dados necessários<br>6. Salvar dados|
 | Critério de Êxito  | Irá aparecer uma mensagem como: O cadastro foi realizado com sucesso.                                                               |
  
-| **Caso de Teste** 	| **CT-09  - Verificar se o usuário consegue efetuar o login**                                                           	             |
+| **Caso de Teste** 	| **CT-09  - Login de usuário**                                                           	             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 |	Requisito Associado| RF-11 - A aplicação deve permitir que os usuários realizem seus pedidos após a realização do login                |
 | Objetivo do Teste 	| Verificar se o usuário consegue ver os dados do próprio cadastro.                                                                    |
