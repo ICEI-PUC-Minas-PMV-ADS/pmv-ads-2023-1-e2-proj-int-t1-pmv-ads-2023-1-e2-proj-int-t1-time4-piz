@@ -7,7 +7,7 @@
 
 O diagrama de fluxo a seguir apresenta a interação do usuário com o sistema interativo da aplicação. O diagrama de fluxo foi desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface.
 
-![Exemplo de Diagrama de Fluxo](img/Diagramadefluxo.png)
+![Exemplo de Diagrama de Fluxo](img/Diagramadefluxo2.png)
 
 
 ## Wireframes
