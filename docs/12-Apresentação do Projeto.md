@@ -42,4 +42,4 @@
 
 ## Vídeo de apresentação final da aplicação
 
-![Apresentação](./presentation/Pizzaria-apresentacao-final.mp4)
+![Apresentação](../presentation/Pizzaria-apresentacao-final.mp4)
