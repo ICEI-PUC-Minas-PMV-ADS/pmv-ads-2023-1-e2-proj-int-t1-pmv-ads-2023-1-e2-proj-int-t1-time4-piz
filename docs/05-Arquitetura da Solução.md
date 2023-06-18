@@ -4,7 +4,7 @@
  
 O diagrama de classes a seguir ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória. Para a execução do diagrama foi utilizada a ferramenta Lucid Chart.
  
-![Diagrama de Classes](img/diagramaclasses_v3.png)
+![Diagrama de Classes](img/DiagramaClasses2.png)
  
 ## Modelo ER (Projeto Conceitual)
 
