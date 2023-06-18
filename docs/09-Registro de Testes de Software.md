@@ -18,30 +18,52 @@ O usuário deve conseguir acessar o menu do cardápio e visualizar as imagens e 
 
 Todas as imagens e informações foram apresentadas como o esperado.
 
-## CT-03 - Realizar pedidos
+## CT-03 - Cadastrar sabores e ingredientes
 
-Nesta etapa, o usuário deve ser capaz de adicionar pizzas e bebidas no carrinho e finalizar o pedido.
+Nesta etapa, o gestor deve conseguir cadastrar, alterar e remover sabores da pizza, ingredientes e promoções.
 
-Este teste foi parcialmente concluído. O usuário conseguiu adicionar apenas as pizzas ao carrinho, pois ainda não foram adicionadas as bebidas ao cardápio. O pedido foi realizado com sucesso.
+O teste foi concluído com êxito, como apresentado no vídeo.
 
-## CT-04 - Relatório
+## CT-04 - Realizar pedidos
 
-Funcionalidade ainda em desenvolvimento pelo grupo.
+O cliente deve ser capaz de adicionar pizzas ao carrinho e finalizar a compra. 
 
-## CT-05 - Cadastrar usuário
+Esta etapa foi finalizada com sucesso.
+
+## CT-05 - Relatório de estoque
+
+A aplicação deve oferecer ao gestor uma funcionalidade de relatório de estoque dos produtos da pizzaria.
+
+Ao realizar o teste, todas as etapas para gerar o relatório de estoque foram concluídas como o esperado.
+
+## CT-06 - Contato
+
+A aplicação deve permitir visualizar as informações de contatos do desenvolvedor do site.
+
+O sistema respondeu corretamente a solicitação para entrar na página de contatos.
+
+## CT-07 - Relatório de vendas
+
+A aplicação deve oferecer ao gestor uma funcionalidade de relatório de vendas.
+
+O relatório de vendas é gerado com sucesso ao selecionar o período desejado.
+
+## CT-08 - Cadastrar usuário
 
 A aplicação deve permitir que qualquer usuário possa se cadastrar no site.
 
-Os usuários conseguiram se cadastrar com sucesso. Observou-se que no caso de erro no cadastro, uma mensagem deve aparecer especificando exatamente qual foi o problema encontrado, para que o usuário tenha mais facilidade de resolvê-lo.
-
-
+Os usuários conseguiram se cadastrar com sucesso, e no caso de um eventual erro, uma mensagem aparece especificando exatamente o que o usuário precisa fazer para se cadastrar corretamente, facilitando para que o cliente não tenha tantas dúvidas ao usar o sistema.
 
 https://user-images.githubusercontent.com/107080793/236701073-f52032c2-7784-426b-a47e-547fce8d48c9.mp4
 
+## CT-09 - Login de usuário
 
+A aplicação deve permitir que os usuários façam seus pedidos após a realização do login.
 
-## CT-06 - Verificar se o usuário consegue efetuar o login
+Os usuários foram capazes de concluir os seus pedidos depois de entrarem no sistema com as informações de login, como apresentado no vídeo.
 
-A aplicação deve permitir que os usuários tenham acesso aos dados do próprio cadastro para editar ou excluir suas informações.
+## CT-10 - Atualização de estoque
 
-Esta etapa foi concluída parcialmente, pois o usuário consegue efetuar o login ao preencher o campo de usuário e a senha, mas não foi capaz de alterar seus dados. Essa função de alteração de dados ainda será implantada pelo grupo.
+A aplicação deve permitir o cadastro e atualização dos produtos de estoque pelos funcionários.
+
+O cadastro e a atualizaçnao dos produtos de estoque foram realizados com sucesso pelo gestor.
