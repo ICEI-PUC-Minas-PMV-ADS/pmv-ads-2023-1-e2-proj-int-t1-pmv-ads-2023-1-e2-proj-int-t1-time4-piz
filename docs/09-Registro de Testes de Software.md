@@ -54,8 +54,6 @@ A aplicação deve permitir que qualquer usuário possa se cadastrar no site.
 
 Os usuários conseguiram se cadastrar com sucesso, e no caso de um eventual erro, uma mensagem aparece especificando exatamente o que o usuário precisa fazer para se cadastrar corretamente, facilitando para que o cliente não tenha tantas dúvidas ao usar o sistema.
 
-https://user-images.githubusercontent.com/107080793/236701073-f52032c2-7784-426b-a47e-547fce8d48c9.mp4
-
 ## CT-09 - Login de usuário
 
 A aplicação deve permitir que os usuários façam seus pedidos após a realização do login.
