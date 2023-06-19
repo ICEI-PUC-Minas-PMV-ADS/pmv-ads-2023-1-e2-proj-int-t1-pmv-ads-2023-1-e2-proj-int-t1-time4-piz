@@ -4,6 +4,7 @@
 
 https://user-images.githubusercontent.com/107080793/236701048-e6128063-0736-4c6c-9ecc-98a32b5edb34.mp4
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t1-pmv-ads-2023-1-e2-proj-int-t1-time4-piz/assets/108854732/ef1c9f4c-24e4-440c-b9f2-921154954a94
 
 
 ## CT-01 - Visualizar a página principal
