@@ -25,7 +25,7 @@ O objetivo geral deste projeto se volta ao desenvolvimento de uma plataforma ace
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
- link da aplicação interativa disponível para acesso (https://pizzapp20230505203628.azurewebsites.net/).
+ link da aplicação interativa disponível para acesso (https://pizzapp20230613222420.azurewebsites.net/).
 
 Usuário de teste, o login e a senha aqui ( usuário - admin@localhost / senha - Numsey#2022).
 
