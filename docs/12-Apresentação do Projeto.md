@@ -1,6 +1,9 @@
 # Apresentação
-
 ## PizzApp
+## Vídeo de apresentação final da aplicação
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t1-pmv-ads-2023-1-e2-proj-int-t1-time4-piz/assets/108854732/600f3958-559c-47a5-a5da-8e5737c5db22
+
 
 ## Conjunto de Slides (Estrutura)
 ![Slide 01](img/Slide1.jpg)
@@ -40,6 +43,4 @@
 ![Slide 01](img/Slide35.jpg)
 
 
-## Vídeo de apresentação final da aplicação
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t1-pmv-ads-2023-1-e2-proj-int-t1-time4-piz/assets/108854732/600f3958-559c-47a5-a5da-8e5737c5db22
